@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-g {
+  background-color: rgb(192, 245, 220);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whole-g {
+  min-width: 50%;
+  max-width: 60%;
+  background-color: white;
+  min-height: 100vh;
+  margin: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.first-section {
+  min-height: 30vh;
+  width: 100%;
+  background-color: rgb(137, 137, 141);
+  color: beige;
+}
+.img-part {
+  height: 30vh;
+  width: 15vw;
+  overflow: hidden;
+  position: relative;
+  top: 30px;
+  right: 0px;
+  left: 20px;
+  border: 7px solid white;
+}
+.img-part img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.naming {
+  display: flex;
+  font-size: 5vh;
+  align-items: center;
+}
+.first-section span {
+  font-size: 3vh;
+  font-weight: 400;
+}
+.about-me {
+  margin: 40px 20px 0;
+  border: none;
+}
+td {
+  text-align: left;
+  padding: 8px;
+}
+.skills {
+  box-sizing: border-box;
+  margin: 40px 20px 20px;
+  padding-bottom: 20px;
+}
+
+.skills h1 {
+  text-align: center;
+  padding: 0;
+}
+.prof-skills {
+  margin: 40px 20px 0;
+  border: none;
+  box-shadow: 0px 0px 51px -15px rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+}
+.outer-color {
+  background-color: grey;
+  margin-top: 3px;
+  width: 100%;
+  height: 10px;
+  border-radius: 3px;
+}
+.HTML .inner-color {
+  background-color: blue;
+  width: 80%;
+  height: 10px;
+  z-index: 2;
+  border-radius: 3px;
+}
+
+.CSS .inner-color {
+  background-color: blue;
+  width: 70%;
+  height: 10px;
+  z-index: 2;
+  border-radius: 3px;
+}
+.JavaScript .inner-color {
+  background-color: blue;
+  width: 65%;
+  height: 10px;
+  z-index: 2;
+  border-radius: 3px;
+}
+.Cplus .inner-color {
+  background-color: blue;
+  width: 90%;
+  height: 10px;
+  z-index: 2;
+  border-radius: 3px;
+}
+.JAVA .inner-color {
+  background-color: blue;
+  width: 70%;
+  height: 10px;
+  z-index: 2;
+  border-radius: 3px;
+}
+.C .inner-color {
+  background-color: blue;
+  width: 85%;
+  height: 10px;
+  z-index: 2;
+  border-radius: 3px;
+}
+.filer {
+  animation: filer 2s 1 forwards ease-in-out;
+}
+
+@keyframes filer {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+.Interests {
+  margin-top: 80px;
+}
+.Interests h1 {
+  text-align: center;
+}
+.Interests-div {
+  margin: 40px 20px 0;
+  border: none;
+}
+.bookRead {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  margin-bottom: 2px;
+}
+.bookRead:hover {
+  background-color: black;
+  color: white;
+}
+.sports {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  margin-bottom: 2px;
+}
+.sports:hover {
+  background-color: black;
+  color: white;
+}
+.music {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  margin-bottom: 2px;
+}
+.music:hover {
+  background-color: black;
+  color: white;
+}
+.inter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+.work-experience {
+  margin-top: 80px;
+  width: 100%;
+}
+.work-experience h1 {
+  text-align: center;
+}
+.experience {
+  margin: 40px 20px 0;
+  border: none;
+}
+.front-end {
+  margin: 40px 30px;
+  min-height: 150px;
+  max-width: 100%;
+  box-shadow: 0px 0px 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+.front-end .company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  background-color: rgb(137, 137, 141);
+  color: beige;
+}
+.front-end .company h2 {
+  margin-bottom: 5px;
+}
+.front-end .company-des {
+  text-align: left;
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.front-end .company-des h1 {
+  text-align: left;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.front-end .company-des p {
+  line-height: 1.5em;
+}
+.front-end .company-des span {
+  font-size: 1em;
+  margin: 0;
+  display: block;
+  font-weight: 600;
+  color: rgb(133, 133, 133);
+}
+@media (max-width: 1240px) {
+  .whole-g {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: white;
+
+    overflow: hidden;
+    margin: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .first-section img-part {
+    height: 35vh;
+    width: 20vw;
+  }
+  .naming h2 {
+    margin-top: 0rem;
+  }
+}
